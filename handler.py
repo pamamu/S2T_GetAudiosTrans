@@ -1,6 +1,9 @@
+import os
+import sys
+
 import requests
+import simplejson
 from lxml import html
-import sys, os, json
 
 
 def get_html_tree(url) -> html.HtmlElement:
@@ -46,17 +49,17 @@ def get_audio_trans(page_tree):
         node = {}
         node['voice'] = element.getchildren()[0].text
         node['start'] = float(e[0].get("data-stime"))
-        node['end'] = next_word
+        node['end'] = float(next_word)
         node['text'] = []
 
         for i, word in enumerate(e[:-1]):
             word_info = {}
             word_info['text'] = word.text
-            word_info['start_time'] = word.get("data-stime")
-            word_info['end_time'] = e[i + 1].get("data-stime")
+            word_info['start_time'] = float(word.get("data-stime"))
+            word_info['end_time'] = float(e[i + 1].get("data-stime"))
             node['text'].append(word_info)
 
-        word_info = {'text': e[-1].text, 'start_time': e[-1].get("data-stime"), 'end_time': next_word}
+        word_info = {'text': e[-1].text, 'start_time': float(e[-1].get("data-stime")), 'end_time': float(next_word)}
         node['text'].append(word_info)
         interventions.append(node)
 
@@ -71,13 +74,19 @@ def get_audio_trans(page_tree):
     for i, word in enumerate(e[:-1]):
         word_info = {}
         word_info['text'] = word.text
-        word_info['start_time'] = word.get("data-stime")
-        word_info['end_time'] = e[i + 1].get("data-stime")
+        word_info['start_time'] = float(word.get("data-stime"))
+        word_info['end_time'] = float(e[i + 1].get("data-stime"))
         node['text'].append(word_info)
 
     interventions.append(node)
 
     return interventions
+
+
+def get_audio_file(audio_url, path):
+    extension = audio_url.split('.')[-1]
+    r = requests.get(audio_url, timeout=30)
+    open(os.path.join(path, 'audio.' + extension), 'wb').write(r.content)
 
 
 if __name__ == '__main__':
@@ -88,21 +97,21 @@ if __name__ == '__main__':
         base_folder = sys.argv[2]
         if not os.path.isdir(base_folder):
             os.mkdir(base_folder)
-        input = json.load(open(sys.argv[1]))
+        input = simplejson.load(open(sys.argv[1]))
         for program in input:
-            if not os.path.isdir(base_folder):
-                os.mkdir(program['name'])
+            path = os.path.join(base_folder, program['name'].replace('/', '-'))
+            if not os.path.isdir(path):
+                os.mkdir(path)
             print(program)
             # url = 'http://play.cadenaser.com/audio/cadenaser_hoyporhoy_20181123_100000_110000/'
             html_tree = get_html_tree(program['uri'])
 
             audio_url = get_audio_url(html_tree)
-            print(audio_url)
-            extension = audio_url.split('.')[-1]
-            r = requests.get(audio_url, timeout=15)
-            open(os.path.join(base_folder, program['name'], 'audio.' + extension), 'wb').write(r.content)
+            # get_audio_file(audio_url, path)
 
-            # trans = get_audio_trans(html_tree)
+            trans = get_audio_trans(html_tree)
+            open(os.path.join(path, 'trans.json'), 'wb').write(
+                simplejson.dumps(trans, indent=4).replace("'", '"').encode('utf8'))
             # print(trans)
     except Exception as e:
         print(e)
