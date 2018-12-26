@@ -99,7 +99,7 @@ if __name__ == '__main__':
             os.mkdir(base_folder)
         input = simplejson.load(open(sys.argv[1]))
         for program in input:
-            path = os.path.join(base_folder, program['name'].replace('/', '-'))
+            path = os.path.join(base_folder, program['name'].replace('/', '-').replace(' ', '_'))
             if not os.path.isdir(path):
                 os.mkdir(path)
             print(program)
@@ -111,7 +111,7 @@ if __name__ == '__main__':
 
             trans = get_audio_trans(html_tree)
             open(os.path.join(path, 'trans.json'), 'wb').write(
-                simplejson.dumps(trans, indent=4).replace("'", '"').encode('utf8'))
+                simplejson.dumps(trans, indent=4, ensure_ascii=False).replace("'", '"').encode('utf8'))
             # print(trans)
     except Exception as e:
         print(e)
