@@ -17,7 +17,7 @@ class ContainerHandler(object):
         self.uri = str(self.daemon.register(self, objectId=self.container_name))
         self.main_server = Pyro4.Proxy(main_uri)
         self.running = False
-        print("Container {}: Created".format(self.container_name))
+        print("Container {}: Created with uri <{}>".format(self.container_name, self.uri))
 
     def register(self):
         self.main_server.register(self.container_name, self.uri)
@@ -40,14 +40,21 @@ class ContainerHandler(object):
         """
         raise NotImplementedError
 
+    @Pyro4.oneway
     def stop(self):
         """
         TODO DOCUMENTATION
         :return:
         """
-        self.daemon.close()
-        self.main_server.unregister(self.container_name)
+        if self.main_server is None:
+            return
+        try:
+            self.main_server.unregister(self.container_name)
+        except Exception as e:
+            print("Container {} Error: {}".format(self.container_name, e))
+        self.main_server = None
         print("Container {}: Stopped".format(self.container_name))
+        self.daemon.close()
 
     @abc.abstractmethod
     def info(self):
