@@ -45,7 +45,7 @@ class GetAudioTransHandler(ContainerHandler):
 
                 trans = get_audio_trans(html_tree)
                 trans_path = save_trans(trans, path)
-
+                # TODO IMPLEMENT MULTIPLES RETURNS
                 return audio_path, trans_path
         except Exception as e:
             print(e)

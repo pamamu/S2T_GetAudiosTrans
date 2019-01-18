@@ -54,7 +54,7 @@ class ContainerHandler(object):
             print("Container {} Error: {}".format(self.container_name, e))
         self.main_server = None
         print("Container {}: Stopped".format(self.container_name))
-        self.daemon.close()
+        self.daemon.shutdown()
 
     @abc.abstractmethod
     def info(self):
