@@ -40,8 +40,8 @@ class GetAudioTransHandler(ContainerHandler):
                 html_tree = get_html_tree(program['uri'])
 
                 audio_url = get_audio_url(html_tree)
-                # audio_path = get_audio_file(audio_url, path)
-                audio_path = ""
+                audio_path = get_audio_file(audio_url, path)
+                # audio_path = ""
 
                 trans = get_audio_trans(html_tree)
                 trans_path = save_trans(trans, path)
@@ -49,3 +49,8 @@ class GetAudioTransHandler(ContainerHandler):
                 return audio_path, trans_path
         except Exception as e:
             print(e)
+
+
+if __name__ == '__main__':
+    a = GetAudioTransHandler("GetAudiosTrans", "PYRO:MainController@localhost:4040")
+    print(a.run(input_json='resources/programs.json', output_folder='/srv/shared_folder'))
