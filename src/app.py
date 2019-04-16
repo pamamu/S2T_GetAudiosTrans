@@ -34,7 +34,9 @@ if __name__ == '__main__':
         if len(sys.argv) < 3:
             print("Insert container name + shared folder")
             sys.exit(1)
+
         args = sys.argv
+        print(args)
 
         container_name = args[1]
         shared_folder = args[2]

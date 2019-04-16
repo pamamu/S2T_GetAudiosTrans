@@ -1,4 +1,6 @@
 import os
+import socket
+
 import simplejson
 
 import requests
@@ -11,7 +13,7 @@ def get_html_tree(url) -> html.HtmlElement:
     :param url:
     :return:
     """
-    page = requests.get(url, timeout=15)
+    page = requests.get(url, timeout=30)
     page.raise_for_status()
     html_tree = html.fromstring(page.text)
     return html_tree
@@ -96,7 +98,21 @@ def get_audio_file(audio_url, path):
 
 
 def save_trans(trans, path):
+    """
+    TODO DOCUMENTATION
+    :param trans:
+    :param path:
+    :return:
+    """
     filename = os.path.join(path, 'trans.json')
     open(filename, 'wb').write(
         simplejson.dumps(trans, indent=4, ensure_ascii=False).replace("'", '"').encode('utf8'))
     return filename
+
+
+def get_ip():
+    """
+    TODO DOCUMENTATION
+    :return:
+    """
+    return socket.gethostbyname(socket.gethostname())
