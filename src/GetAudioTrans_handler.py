@@ -1,6 +1,7 @@
+import Pyro4
+
 from ContainerHandler import ContainerHandler
 from utils import *
-import Pyro4
 
 
 @Pyro4.expose
@@ -14,6 +15,7 @@ class GetAudioTransHandler(ContainerHandler):
             print("Container {}: Runned with {}".format(self.container_name, kwargs))
             self.running = True
             result = self.download_files(kwargs['input_json'], kwargs['output_folder'])
+            print(result)
             self.running = False
             return result
         else:
@@ -30,6 +32,7 @@ class GetAudioTransHandler(ContainerHandler):
         :return:
         """
         try:
+            response = []
             if not os.path.isdir(output_folder):
                 os.mkdir(output_folder)
             programs = simplejson.load(open(input_json))
@@ -45,12 +48,14 @@ class GetAudioTransHandler(ContainerHandler):
 
                 trans = get_audio_trans(html_tree)
                 trans_path = save_trans(trans, path)
-                # TODO IMPLEMENT MULTIPLES RETURNS
-                return audio_path, trans_path
+                print((audio_path, trans_path))
+                response.append((audio_path, trans_path))
+            return response
         except Exception as e:
             print(e)
 
 
 if __name__ == '__main__':
     a = GetAudioTransHandler("GetAudiosTrans", "PYRO:MainController@localhost:4040")
-    print(a.run(input_json='resources/programs.json', output_folder='/srv/shared_folder'))
+    print(a.run(input_json='resources/programs.json',
+                output_folder='/Users/pablomaciasmunoz/Dev/WS_TFG/S2T/shared_folder'))
