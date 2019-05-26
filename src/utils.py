@@ -1,9 +1,9 @@
+import json
 import os
 import socket
 
-import simplejson
-
 import requests
+import simplejson
 from lxml import html
 
 
@@ -108,6 +108,18 @@ def save_trans(trans, path):
     open(filename, 'wb').write(
         simplejson.dumps(trans, indent=4, ensure_ascii=False).replace("'", '"').encode('utf8'))
     return filename
+
+
+def save_json(data, path):
+    """
+    TODO DOCUMENTATION
+    :param data:
+    :param path:
+    :return:
+    """
+    with open(path, 'w') as out:
+        json.dump(data, out, indent=4, ensure_ascii=False)
+    return path
 
 
 def get_ip():
