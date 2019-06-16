@@ -2,3 +2,10 @@
 venv/
 
 \.idea/
+
+out/\.DS_Store
+
+\.DS_Store
+
+*.mp3
+*.wav

@@ -1,0 +1,938 @@
+[
+  {
+    "voice": "Voz 0562",
+    "start": 0.66,
+    "end": 21.76,
+    "text": [
+      {
+        "text": "son",
+        "start_time": 0.66,
+        "end_time": 0.96
+      },
+      {
+        "text": "las",
+        "start_time": 0.96,
+        "end_time": 1.2
+      },
+      {
+        "text": "diez",
+        "start_time": 1.2,
+        "end_time": 1.5
+      },
+      {
+        "text": "las",
+        "start_time": 1.5,
+        "end_time": 1.74
+      },
+      {
+        "text": "nueve",
+        "start_time": 1.74,
+        "end_time": 1.98
+      },
+      {
+        "text": "en",
+        "start_time": 1.98,
+        "end_time": 2.04
+      },
+      {
+        "text": "Canarias",
+        "start_time": 2.04,
+        "end_time": 7.41
+      },
+      {
+        "text": "Pablo",
+        "start_time": 7.41,
+        "end_time": 7.71
+      },
+      {
+        "text": "Iglesias",
+        "start_time": 7.71,
+        "end_time": 8.04
+      },
+      {
+        "text": "asegura",
+        "start_time": 8.04,
+        "end_time": 8.49
+      },
+      {
+        "text": "que",
+        "start_time": 8.49,
+        "end_time": 8.61
+      },
+      {
+        "text": "es",
+        "start_time": 8.61,
+        "end_time": 8.7
+      },
+      {
+        "text": "partidario",
+        "start_time": 8.7,
+        "end_time": 9.24
+      },
+      {
+        "text": "de",
+        "start_time": 9.24,
+        "end_time": 9.33
+      },
+      {
+        "text": "que",
+        "start_time": 9.33,
+        "end_time": 9.45
+      },
+      {
+        "text": "Manuela",
+        "start_time": 9.45,
+        "end_time": 9.78
+      },
+      {
+        "text": "Carmena",
+        "start_time": 9.78,
+        "end_time": 10.14
+      },
+      {
+        "text": "tenga",
+        "start_time": 10.14,
+        "end_time": 10.56
+      },
+      {
+        "text": "su",
+        "start_time": 10.56,
+        "end_time": 10.71
+      },
+      {
+        "text": "espacio",
+        "start_time": 10.71,
+        "end_time": 11.01
+      },
+      {
+        "text": "político",
+        "start_time": 11.01,
+        "end_time": 11.43
+      },
+      {
+        "text": "propio",
+        "start_time": 11.43,
+        "end_time": 12.21
+      },
+      {
+        "text": "el",
+        "start_time": 12.21,
+        "end_time": 12.36
+      },
+      {
+        "text": "líder",
+        "start_time": 12.36,
+        "end_time": 12.75
+      },
+      {
+        "text": "de",
+        "start_time": 12.75,
+        "end_time": 12.87
+      },
+      {
+        "text": "Podemos",
+        "start_time": 12.87,
+        "end_time": 13.26
+      },
+      {
+        "text": "advierte",
+        "start_time": 13.26,
+        "end_time": 13.68
+      },
+      {
+        "text": "no",
+        "start_time": 13.68,
+        "end_time": 13.8
+      },
+      {
+        "text": "obstante",
+        "start_time": 13.8,
+        "end_time": 14.19
+      },
+      {
+        "text": "de",
+        "start_time": 14.19,
+        "end_time": 14.28
+      },
+      {
+        "text": "que",
+        "start_time": 14.28,
+        "end_time": 14.4
+      },
+      {
+        "text": "sin",
+        "start_time": 14.4,
+        "end_time": 14.58
+      },
+      {
+        "text": "la",
+        "start_time": 14.58,
+        "end_time": 14.67
+      },
+      {
+        "text": "presencia",
+        "start_time": 14.67,
+        "end_time": 15.06
+      },
+      {
+        "text": "de",
+        "start_time": 15.06,
+        "end_time": 15.15
+      },
+      {
+        "text": "su",
+        "start_time": 15.15,
+        "end_time": 15.24
+      },
+      {
+        "text": "partido",
+        "start_time": 15.24,
+        "end_time": 15.6
+      },
+      {
+        "text": "en",
+        "start_time": 15.6,
+        "end_time": 15.66
+      },
+      {
+        "text": "la",
+        "start_time": 15.66,
+        "end_time": 15.72
+      },
+      {
+        "text": "lista",
+        "start_time": 15.72,
+        "end_time": 15.99
+      },
+      {
+        "text": "de",
+        "start_time": 15.99,
+        "end_time": 16.08
+      },
+      {
+        "text": "Carmena",
+        "start_time": 16.08,
+        "end_time": 16.86
+      },
+      {
+        "text": "será",
+        "start_time": 16.86,
+        "end_time": 17.13
+      },
+      {
+        "text": "difícil",
+        "start_time": 17.13,
+        "end_time": 17.64
+      },
+      {
+        "text": "que",
+        "start_time": 17.64,
+        "end_time": 17.79
+      },
+      {
+        "text": "puede",
+        "start_time": 17.79,
+        "end_time": 18.1
+      },
+      {
+        "text": "a",
+        "start_time": 18.1,
+        "end_time": 18.48
+      },
+      {
+        "text": "repetir",
+        "start_time": 18.48,
+        "end_time": 18.9
+      },
+      {
+        "text": "como",
+        "start_time": 18.9,
+        "end_time": 19.11
+      },
+      {
+        "text": "alcaldesa",
+        "start_time": 19.11,
+        "end_time": 19.95
+      },
+      {
+        "text": "palabras",
+        "start_time": 19.95,
+        "end_time": 20.43
+      },
+      {
+        "text": "de",
+        "start_time": 20.43,
+        "end_time": 20.52
+      },
+      {
+        "text": "Iglesias",
+        "start_time": 20.52,
+        "end_time": 20.85
+      },
+      {
+        "text": "aquí",
+        "start_time": 20.85,
+        "end_time": 21.06
+      },
+      {
+        "text": "en",
+        "start_time": 21.06,
+        "end_time": 21.15
+      },
+      {
+        "text": "Hoy",
+        "start_time": 21.15,
+        "end_time": 21.3
+      },
+      {
+        "text": "por",
+        "start_time": 21.3,
+        "end_time": 21.45
+      },
+      {
+        "text": "hoy",
+        "start_time": 21.45,
+        "end_time": 21.76
+      }
+    ]
+  },
+  {
+    "voice": "Voz 2",
+    "start": 21.76,
+    "end": 47.46,
+    "text": [
+      {
+        "text": "me",
+        "start_time": 21.76,
+        "end_time": 21.94
+      },
+      {
+        "text": "parece",
+        "start_time": 21.94,
+        "end_time": 22.24
+      },
+      {
+        "text": "buena",
+        "start_time": 22.24,
+        "end_time": 22.45
+      },
+      {
+        "text": "idea",
+        "start_time": 22.45,
+        "end_time": 22.72
+      },
+      {
+        "text": "que",
+        "start_time": 22.72,
+        "end_time": 22.96
+      },
+      {
+        "text": "Manuela",
+        "start_time": 22.96,
+        "end_time": 23.29
+      },
+      {
+        "text": "tenga",
+        "start_time": 23.29,
+        "end_time": 23.53
+      },
+      {
+        "text": "su",
+        "start_time": 23.53,
+        "end_time": 23.68
+      },
+      {
+        "text": "propio",
+        "start_time": 23.68,
+        "end_time": 23.92
+      },
+      {
+        "text": "partido",
+        "start_time": 23.92,
+        "end_time": 24.49
+      },
+      {
+        "text": "su",
+        "start_time": 24.49,
+        "end_time": 24.61
+      },
+      {
+        "text": "propio",
+        "start_time": 24.61,
+        "end_time": 24.88
+      },
+      {
+        "text": "espacio",
+        "start_time": 24.88,
+        "end_time": 25.18
+      },
+      {
+        "text": "político",
+        "start_time": 25.18,
+        "end_time": 25.75
+      },
+      {
+        "text": "nosotros",
+        "start_time": 25.75,
+        "end_time": 26.05
+      },
+      {
+        "text": "estamos",
+        "start_time": 26.05,
+        "end_time": 26.38
+      },
+      {
+        "text": "muy",
+        "start_time": 26.38,
+        "end_time": 26.47
+      },
+      {
+        "text": "orgullosos",
+        "start_time": 26.47,
+        "end_time": 27.01
+      },
+      {
+        "text": "de",
+        "start_time": 27.01,
+        "end_time": 27.1
+      },
+      {
+        "text": "haber",
+        "start_time": 27.1,
+        "end_time": 27.46
+      },
+      {
+        "text": "propuesto",
+        "start_time": 27.46,
+        "end_time": 27.97
+      },
+      {
+        "text": "hace",
+        "start_time": 27.97,
+        "end_time": 28.12
+      },
+      {
+        "text": "cuatro",
+        "start_time": 28.12,
+        "end_time": 28.39
+      },
+      {
+        "text": "años",
+        "start_time": 28.39,
+        "end_time": 28.69
+      },
+      {
+        "text": "a",
+        "start_time": 28.69,
+        "end_time": 28.81
+      },
+      {
+        "text": "Manuela",
+        "start_time": 28.81,
+        "end_time": 29.11
+      },
+      {
+        "text": "Carmena",
+        "start_time": 29.11,
+        "end_time": 29.62
+      },
+      {
+        "text": "recibimos",
+        "start_time": 29.62,
+        "end_time": 30.13
+      },
+      {
+        "text": "muchas",
+        "start_time": 30.13,
+        "end_time": 30.37
+      },
+      {
+        "text": "críticas",
+        "start_time": 30.37,
+        "end_time": 30.97
+      },
+      {
+        "text": "y",
+        "start_time": 30.97,
+        "end_time": 31.06
+      },
+      {
+        "text": "creo",
+        "start_time": 31.06,
+        "end_time": 31.27
+      },
+      {
+        "text": "que",
+        "start_time": 31.27,
+        "end_time": 31.36
+      },
+      {
+        "text": "acertamos",
+        "start_time": 31.36,
+        "end_time": 32.41
+      },
+      {
+        "text": "creo",
+        "start_time": 32.41,
+        "end_time": 32.62
+      },
+      {
+        "text": "que",
+        "start_time": 32.62,
+        "end_time": 32.71
+      },
+      {
+        "text": "la",
+        "start_time": 32.71,
+        "end_time": 32.8
+      },
+      {
+        "text": "clave",
+        "start_time": 32.8,
+        "end_time": 33.04
+      },
+      {
+        "text": "de",
+        "start_time": 33.04,
+        "end_time": 33.1
+      },
+      {
+        "text": "los",
+        "start_time": 33.1,
+        "end_time": 33.22
+      },
+      {
+        "text": "ingredientes",
+        "start_time": 33.22,
+        "end_time": 33.79
+      },
+      {
+        "text": "para",
+        "start_time": 33.79,
+        "end_time": 33.97
+      },
+      {
+        "text": "que",
+        "start_time": 33.97,
+        "end_time": 34.06
+      },
+      {
+        "text": "Manuel",
+        "start_time": 34.06,
+        "end_time": 34.43
+      },
+      {
+        "text": "vuelva",
+        "start_time": 34.43,
+        "end_time": 34.69
+      },
+      {
+        "text": "a",
+        "start_time": 34.69,
+        "end_time": 34.72
+      },
+      {
+        "text": "ser",
+        "start_time": 34.72,
+        "end_time": 35.08
+      },
+      {
+        "text": "alcaldesa",
+        "start_time": 35.08,
+        "end_time": 35.71
+      },
+      {
+        "text": "que",
+        "start_time": 35.71,
+        "end_time": 35.8
+      },
+      {
+        "text": "es",
+        "start_time": 35.8,
+        "end_time": 35.86
+      },
+      {
+        "text": "lo",
+        "start_time": 35.86,
+        "end_time": 35.95
+      },
+      {
+        "text": "que",
+        "start_time": 35.95,
+        "end_time": 36.04
+      },
+      {
+        "text": "todos",
+        "start_time": 36.04,
+        "end_time": 36.25
+      },
+      {
+        "text": "deseamos",
+        "start_time": 36.25,
+        "end_time": 37.28
+      },
+      {
+        "text": "es",
+        "start_time": 37.28,
+        "end_time": 37.49
+      },
+      {
+        "text": "sumar",
+        "start_time": 37.49,
+        "end_time": 37.79
+      },
+      {
+        "text": "todas",
+        "start_time": 37.79,
+        "end_time": 38.06
+      },
+      {
+        "text": "las",
+        "start_time": 38.06,
+        "end_time": 38.21
+      },
+      {
+        "text": "piezas",
+        "start_time": 38.21,
+        "end_time": 38.75
+      },
+      {
+        "text": "no",
+        "start_time": 38.75,
+        "end_time": 38.96
+      },
+      {
+        "text": "dejarse",
+        "start_time": 38.96,
+        "end_time": 39.32
+      },
+      {
+        "text": "ninguna",
+        "start_time": 39.32,
+        "end_time": 39.62
+      },
+      {
+        "text": "fuera",
+        "start_time": 39.62,
+        "end_time": 40.19
+      },
+      {
+        "text": "creo",
+        "start_time": 40.19,
+        "end_time": 40.43
+      },
+      {
+        "text": "que",
+        "start_time": 40.43,
+        "end_time": 40.52
+      },
+      {
+        "text": "va",
+        "start_time": 40.52,
+        "end_time": 40.58
+      },
+      {
+        "text": "a",
+        "start_time": 40.58,
+        "end_time": 40.61
+      },
+      {
+        "text": "ser",
+        "start_time": 40.61,
+        "end_time": 40.76
+      },
+      {
+        "text": "así",
+        "start_time": 40.76,
+        "end_time": 41.18
+      },
+      {
+        "text": "porque",
+        "start_time": 41.18,
+        "end_time": 41.51
+      },
+      {
+        "text": "todos",
+        "start_time": 41.51,
+        "end_time": 41.78
+      },
+      {
+        "text": "somos",
+        "start_time": 41.78,
+        "end_time": 42.02
+      },
+      {
+        "text": "conscientes",
+        "start_time": 42.02,
+        "end_time": 42.77
+      },
+      {
+        "text": "de",
+        "start_time": 42.77,
+        "end_time": 42.95
+      },
+      {
+        "text": "que",
+        "start_time": 42.95,
+        "end_time": 43.61
+      },
+      {
+        "text": "de",
+        "start_time": 43.61,
+        "end_time": 43.73
+      },
+      {
+        "text": "que",
+        "start_time": 43.73,
+        "end_time": 43.82
+      },
+      {
+        "text": "si",
+        "start_time": 43.82,
+        "end_time": 43.94
+      },
+      {
+        "text": "falta",
+        "start_time": 43.94,
+        "end_time": 44.24
+      },
+      {
+        "text": "alguna",
+        "start_time": 44.24,
+        "end_time": 44.54
+      },
+      {
+        "text": "de",
+        "start_time": 44.54,
+        "end_time": 44.63
+      },
+      {
+        "text": "las",
+        "start_time": 44.63,
+        "end_time": 44.75
+      },
+      {
+        "text": "piezas",
+        "start_time": 44.75,
+        "end_time": 45.23
+      },
+      {
+        "text": "es",
+        "start_time": 45.23,
+        "end_time": 45.44
+      },
+      {
+        "text": "muy",
+        "start_time": 45.44,
+        "end_time": 45.65
+      },
+      {
+        "text": "difícil",
+        "start_time": 45.65,
+        "end_time": 46.16
+      },
+      {
+        "text": "revalidar",
+        "start_time": 46.16,
+        "end_time": 46.61
+      },
+      {
+        "text": "la",
+        "start_time": 46.61,
+        "end_time": 46.7
+      },
+      {
+        "text": "victoria",
+        "start_time": 46.7,
+        "end_time": 47.46
+      }
+    ]
+  },
+  {
+    "voice": "Voz 0562",
+    "start": 47.46,
+    "end": 62.81,
+    "text": [
+      {
+        "text": "Iglesias",
+        "start_time": 47.46,
+        "end_time": 47.94
+      },
+      {
+        "text": "ha",
+        "start_time": 47.94,
+        "end_time": 48.0
+      },
+      {
+        "text": "pedido",
+        "start_time": 48.0,
+        "end_time": 48.3
+      },
+      {
+        "text": "al",
+        "start_time": 48.3,
+        "end_time": 48.36
+      },
+      {
+        "text": "Gobierno",
+        "start_time": 48.36,
+        "end_time": 48.81
+      },
+      {
+        "text": "que",
+        "start_time": 48.81,
+        "end_time": 48.96
+      },
+      {
+        "text": "se",
+        "start_time": 48.96,
+        "end_time": 49.17
+      },
+      {
+        "text": "esfuerce",
+        "start_time": 49.17,
+        "end_time": 49.62
+      },
+      {
+        "text": "más",
+        "start_time": 49.62,
+        "end_time": 49.86
+      },
+      {
+        "text": "para",
+        "start_time": 49.86,
+        "end_time": 50.07
+      },
+      {
+        "text": "sacar",
+        "start_time": 50.07,
+        "end_time": 50.37
+      },
+      {
+        "text": "adelante",
+        "start_time": 50.37,
+        "end_time": 51.03
+      },
+      {
+        "text": "los",
+        "start_time": 51.03,
+        "end_time": 51.3
+      },
+      {
+        "text": "presupuestos",
+        "start_time": 51.3,
+        "end_time": 51.99
+      },
+      {
+        "text": "pero",
+        "start_time": 51.99,
+        "end_time": 52.2
+      },
+      {
+        "text": "admite",
+        "start_time": 52.2,
+        "end_time": 52.95
+      },
+      {
+        "text": "que",
+        "start_time": 52.95,
+        "end_time": 53.07
+      },
+      {
+        "text": "su",
+        "start_time": 53.07,
+        "end_time": 53.19
+      },
+      {
+        "text": "partido",
+        "start_time": 53.19,
+        "end_time": 53.55
+      },
+      {
+        "text": "debe",
+        "start_time": 53.55,
+        "end_time": 53.7
+      },
+      {
+        "text": "estar",
+        "start_time": 53.7,
+        "end_time": 53.91
+      },
+      {
+        "text": "preparado",
+        "start_time": 53.91,
+        "end_time": 54.39
+      },
+      {
+        "text": "para",
+        "start_time": 54.39,
+        "end_time": 54.54
+      },
+      {
+        "text": "un",
+        "start_time": 54.54,
+        "end_time": 54.63
+      },
+      {
+        "text": "posible",
+        "start_time": 54.63,
+        "end_time": 55.32
+      },
+      {
+        "text": "adelanto",
+        "start_time": 55.32,
+        "end_time": 55.92
+      },
+      {
+        "text": "electoral",
+        "start_time": 55.92,
+        "end_time": 56.73
+      },
+      {
+        "text": "por",
+        "start_time": 56.73,
+        "end_time": 56.91
+      },
+      {
+        "text": "lo",
+        "start_time": 56.91,
+        "end_time": 57.0
+      },
+      {
+        "text": "demás",
+        "start_time": 57.0,
+        "end_time": 57.33
+      },
+      {
+        "text": "la",
+        "start_time": 57.33,
+        "end_time": 57.51
+      },
+      {
+        "text": "protesta",
+        "start_time": 57.51,
+        "end_time": 57.96
+      },
+      {
+        "text": "de",
+        "start_time": 57.96,
+        "end_time": 58.02
+      },
+      {
+        "text": "camioneros",
+        "start_time": 58.02,
+        "end_time": 58.5
+      },
+      {
+        "text": "en",
+        "start_time": 58.5,
+        "end_time": 58.62
+      },
+      {
+        "text": "Barcelona",
+        "start_time": 58.62,
+        "end_time": 59.13
+      }
+    ]
+  }
+]
