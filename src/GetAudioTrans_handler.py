@@ -50,7 +50,7 @@ class GetAudioTransHandler(ContainerHandler):
                 trans_path = save_trans(trans, path)
                 print((audio_path, trans_path))
                 response.append((audio_path, trans_path))
-                response_json = save_json(response, os.path.join(output_folder, 'audios.json'))
+            response_json = save_json(response, os.path.join(output_folder, 'audios.json'))
             return response_json
         except Exception as e:
             print(e)
